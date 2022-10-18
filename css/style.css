@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Balqis';
+    src: url(../assets/Fonts/Balqis.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed';
+    src: url(../assets/Fonts/RobotoCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(../assets/Fonts/RobotoCondensed-Light.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 1920px;
+    background: url(../assets/background/Cappadocia.svg);
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 360px;
+    margin-right: 360px;
+    padding-top: 72px;
+}
+
+
+.navbar a {
+    color: black;
+    font-size: 24px;
+    margin-right: 52px;
+    font-family: 'Roboto-Condensed';
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover {
+    border-color: #E2AB3F;
+    padding-bottom: 5px;
+}
+#telephone a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cappadocia {
+    margin: 0 auto;
+    margin-top: 152px;
+    margin-bottom: 564px;
+    width: 1074px;
+    height: 264px;
+    font-weight: 400;
+    font-size: 250px;
+    font-family: 'Balqis';
+}
+
+
+
+.fairy-tail {
+    font-size: 96px;
+    margin-left: 360px;
+    margin-top: 200px;
+    margin-bottom: 107px;
+    width: 330px;
+    height: 125px;
+    font-family: 'Balqis';
+    color: #E2AB3F;
+}
+.first-part {
+    display: flex;
+}
+.first-left-photo {
+    margin-bottom: 0px;
+}
+.first-right-text {
+    font-family: 'Roboto-Condensed';
+    margin: 55px;
+}
+#fairy-tale-1 {
+    width: 545px;
+    height: 84px;
+    font-size: 18px;
+}
+#fairy-tale-2 {
+    width: 545px;
+    height: 84px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+#fairy-tale-3 {
+    width: 150px;
+    height: 22px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+#fairy-tale-4 {
+    width: 300px;
+    height: 105px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+#fairy-tale-5 {
+    width: 545px;
+    height: 26px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+#fairy-tale-6 {
+    width: 545px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+
+.second-part {
+    display: flex;
+    height: 1095px;
+    margin-left: 360px;
+    margin-top: 200px;
+}
+.second-part .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 270px;
+}
+.our-trip {
+    height: 125px;
+    width: 330px;
+    font-family: 'Balqis';
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+}
+.dates {
+    font-family: 'Roboto-Condensed';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+.dates-text {
+    font-family: 'Roboto-light';
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    color: #000000;
+    width: 296px;
+    height: 140px;
+    padding-bottom: 50px;
+}
+.register-button {
+    border: 1px solid #E2AB3F;
+    width: 280px;
+    height: 50px;
+    padding: 11px 54px;
+    font-family: 'Roboto-Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 200px 358px 0 361px;
+    width: 1201px;
+    height: 934px;
+}
+.hotel {
+    height: 103px;
+    width: 210px;
+    font-family: 'Balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+    font-weight: 400;
+}
+.third-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.texts-and-rooms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.texts {
+    height: 91px;
+    width: 600px;
+    font-family: 'Roboto-light';
+    font-size: 18px;
+    font-weight: 300;
+}
+.texts p {
+    padding-bottom: 20px;
+}
+.rooms {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 39px;
+}
+
+
+
+.fourth-part {
+    height: 1561px;
+    width: 1305px;
+    margin: 200px 255px 0px 360px;
+}
+.price-bar {
+    height: 103px;
+    width: 210px;
+    font-family: 'Balqis';
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+}
+.on-off-side {
+    display: flex;
+    height: 457px;
+    padding-top: 130px;
+    gap: 70px;
+}
+.on-off-side h3 {
+    font-family: 'Roboto-Condensed';
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.on-off-side p {
+    font-family: 'Roboto-light';
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    width: 525px;
+}
+.off-side {
+    position: relative;
+}
+.little-baloon-one {
+    position: absolute;
+    top: 52px;
+    left: 384px;
+}
+.little-baloon-two {
+    position: absolute;
+    top: 219px;
+    left: 457px;
+}
+.middle-baloon {
+    position: absolute;
+    left: 499px;
+    top: -100px;
+}
+.date-price-photo {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.date-price {
+    font-family: Balqis;
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+    padding-left: 106px;
+}
+.visit-price {
+    padding-left: 122px;
+}
+.rezerv-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 128px;
+    width: 600px;
+    height: 368px;
+    gap: 20px;
+}
+.rezerv-side h3 {
+    font-family: 'Roboto-Condensed';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 28px;
+    width: 359px;
+    padding-bottom: 50px;
+}
+.rezerv-side input {
+    height: 50px;
+    width: 383px;
+    border: 1px solid #E2AB3F;
+    padding-left: 31px;
+    font-size: 18px;
+}
+.rezerv-btn {
+    border: 1px solid #E2AB3F;
+    height: 50px;
+    width: 280px;
+    font-family: 'Roboto-Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+}
+.rezerv-photo {
+    padding-right: 105px;
+}
+
+
+
+
+footer {
+    background: url('/assets/background/footer.svg');
+    background-repeat: no-repeat;
+    height: 1180px;
+    margin-top: 200px;
+}
+.contact-baloon {
+    display: inline-block;
+    position: relative;
+    padding-top: 96px;
+    padding-left: 476px;
+    width: 356px;
+    height: 527px;
+}
+.contact-baloon div{
+    cursor: pointer;
+}
+.Contact-text {
+    position: absolute;
+    font-family: 'Balqis';
+    font-size: 86px;
+    font-weight: 400;
+    color: #E2AB3F;
+    left: 519px;
+    top: 167px;
+}
+.number {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 565px;
+    top: 302px;
+    width: 180px;
+    gap: 8px;
+}
+.mail {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 540px;
+    top: 347px;
+    width: 180px;
+    gap: 8px;
+}
+.yt-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 596px;
+    top: 406px;
+    gap: 8px;
+}
+.fb-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 641px;
+    top: 406px;
+    gap: 8px;
+}
+.insta-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 686px;
+    top: 406px;
+    gap: 8px;
+}
+.last-text {
+    height: 110px;
+    width: 595px;
+    left: 971px;
+    font-family: Balqis;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 115px;
+    margin-left: 971px;
+    margin-top: -311px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
